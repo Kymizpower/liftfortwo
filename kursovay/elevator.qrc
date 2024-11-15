@@ -1,0 +1,25 @@
+<RCC>
+    <qresource prefix="/door">
+        <file>door3.png</file>
+    </qresource>
+    <qresource prefix="/people">
+        <file>resource/Man_1.png</file>
+        <file>resource/Man_2.png</file>
+        <file>resource/Man_3.png</file>
+        <file>resource/Man_4.png</file>
+        <file>resource/Man_5.png</file>
+        <file>resource/Man_6.png</file>
+        <file>resource/Man_7.png</file>
+        <file>resource/Man_8.png</file>
+        <file>resource/Man_9.png</file>
+        <file>resource/Woman_2.png</file>
+        <file>resource/Woman_3.png</file>
+        <file>resource/Woman_4.png</file>
+        <file>resource/Woman_5.png</file>
+        <file>resource/Woman_6.png</file>
+        <file>resource/Woman_7.png</file>
+        <file>resource/Woman_8.png</file>
+        <file>resource/Woman_9.png</file>
+        <file>resource/Woman_1.png</file>
+    </qresource>
+</RCC>
