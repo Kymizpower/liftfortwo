@@ -27,8 +27,10 @@ MainWindow::MainWindow(QWidget *parent)
     entrance_1->setColumnWidth(1, 65);
     entrance_1->setColumnWidth(2, 65);
     entrance_1->verticalHeader()->setSectionResizeMode(QHeaderView::Stretch);
-    QStringList headers_1 = {"Elevator 1", "Human 1", "Human 2", "Human 3"};
-    entrance_1->setHorizontalHeaderLabels(headers_1);
+    QStringList headers_1_horizontal = {"Elevator 1", "Human 1", "Human 2", "Human 3"};
+    entrance_1->setHorizontalHeaderLabels(headers_1_horizontal);
+    QStringList headers_1_vertical = {"9", "8", "7", "6", "5", "4", "3", "2", "1"};
+    entrance_1->setVerticalHeaderLabels(headers_1_vertical);
 
     spawn_floor_1 = new QSpinBox(this);
     spawn_floor_1->setGeometry(275, 600, 80, 30);
@@ -57,8 +59,10 @@ MainWindow::MainWindow(QWidget *parent)
     entrance_2->setColumnWidth(1, 65);
     entrance_2->setColumnWidth(2, 65);
     entrance_2->verticalHeader()->setSectionResizeMode(QHeaderView::Stretch);
-    QStringList headers_2 = {"Elevator 2", "Human 1", "Human 2", "Human 3"};
-    entrance_2->setHorizontalHeaderLabels(headers_2);
+    QStringList headers_2_horizontal = {"Elevator 2", "Human 1", "Human 2", "Human 3"};
+    entrance_2->setHorizontalHeaderLabels(headers_2_horizontal);
+    QStringList headers_2_vertical = {"9", "8", "7", "6", "5", "4", "3", "2", "1"};
+    entrance_2->setVerticalHeaderLabels(headers_2_vertical);
 
     spawn_floor_2 = new QSpinBox(this);
     spawn_floor_2->setGeometry(663, 600, 80, 30);
